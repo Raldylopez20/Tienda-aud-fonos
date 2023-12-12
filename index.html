@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LopezPRO Audifonos</title>
+
+    <!-- estilos de las fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- añadiendo las otras hojas -->
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+<body>
+
+<!-- HEADER------------------------------------------------------------------------------------------------------------------------------------------- -->
+    
+    <header class="header">
+        <div class="contenedor contenido-header" >
+
+            <!-- IMAGEN DE HEADER -->
+            <div class="imagen-header">
+                <picture>
+                    <source 
+                        sizes="1920w"
+                        srcset="img/header.avif 1920w"
+                        type="image/avif">
+                    <source 
+                        sizes="1920w"
+                        srcset="img/header.webp 1920w"
+                        type="image/webp">
+                    <source 
+                        sizes="1920w"
+                        srcset="img/header.png 1920w"
+                        type="image/jpeg">
+                    <img loading="lazy" decoding="async" src="img/header.png"
+                    lazyyalt="imagen" width="1000" height="600" >
+                </picture>
+            </div><!--fin imagen-->
+
+            <!-- TEXTO DEL HEADER---------------------------------------------------------- -->
+            <div class="texto-header">
+                <p class="tagline-producto">Sonido profecional</p>
+
+                <h1 class="nombre-producto degradado-verde">LopezPRO</h1>
+
+                <p class="descripcion-producto">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Ad corrupti culpa, autem mollitia quidem officia at doloremque aut accusamus repellat.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, consequuntur.</p>
+                
+                <p class="precio-producto">Desde <span>$299</span></p>
+
+            </div> <!--fin texto-->
+        </div><!--fin contenedor-->
+    </header> <!--fin header-->
+
+    <!-- SECCION 1---------------------------------------------------------------------------- -->
+
+    <section class="contenedor">
+        <div class="iconos">
+            <div class="icono">
+
+                <!-- imagen icono -->
+                <img src="img/icono-sonido.svg" alt="imagen icono">
+
+                <!-- Titulo -->
+                <h3>Gran Sonido</h3>
+
+                <!-- informacion -->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quo asperiores est blanditiis a fuga sequi repellat dolores eaque
+                accusamus impedit!</p>
+
+            </div><!--fin icono 1-->
+
+
+            <div class="icono">
+
+                <!-- imagen icono -->
+                <img src="img/icono-garantia.svg" alt="imagen icono">
+
+                <!-- Titulo -->
+                <h3>3 Meses de garantia</h3>
+
+                <!-- informacion -->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quo asperiores est blanditiis a fuga sequi repellat dolores eaque
+                accusamus impedit!</p>
+
+            </div><!--fin icono 2-->
+
+
+            <div class="icono">
+
+                <!-- imagen icono -->
+                <img src="img/icono-bateria.svg" alt="imagen icono">
+
+                <!-- Titulo -->
+                <h3> +20 Horas de Bateria</h3>
+
+                <!-- informacion -->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quo asperiores est blanditiis a fuga sequi repellat dolores eaque
+                accusamus impedit!</p>
+
+            </div><!--fin icono 3-->
+
+        </div> <!--fin iconos-->
+    </section><!--fin section 1-->
+
+
+    <!-- SECTION 2---------------------------------------------------------------------------- -->
+
+    <section class="sobre-tech">
+
+        <div class="contenedor sobre-tech-grid">
+
+            <div class="texto-sobre-tech">
+
+                <!-- titulo -->
+                <h2>Sobre los <span>LopezPRO</span> </h2>
+
+                <!-- informacion -->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quo asperiores est blanditiis a fuga sequi repellat dolores eaque
+                accusamus impedit!</p>
+
+            </div><!--fin texto-->
+
+        </div> <!--fin contenedor-->
+    </section><!--fin section 2-->
+
+
+    <!-- MAIN---------------------------------------------------------------------------- -->
+
+    <main class="contenedor modelos ">
+        <h2 class="text-center degradado-verde header-modelos">Elige tus LopezPRO</h2>
+
+        <div class="listado-modelos ">
+
+            <div class="modelo modelo-x">
+                <!-- titulo -->
+                <h3>LopezPRO X </h3>
+
+                <!-- precio -->
+                <p class="precio">$200</p>
+            </div><!--modelo x-->
+
+
+
+            <div class="modelo modelo-y">
+                <!-- titulo -->
+                <h3>LopezPRO Y </h3>
+
+                <!-- precio -->
+                <p class="precio">$300</p>
+            </div><!--modelo y-->
+
+
+
+            <div class="modelo modelo-z">
+                <!-- titulo -->
+                <h3>LopezPRO Z </h3>
+
+                <!-- precio -->
+                <p class="precio">$450</p>
+            </div><!--modelo z-->
+
+        </div><!--fin listado-->
+    </main><!--fin main-->
+
+
+    <!-- SECTION 3---------------------------------------------------------------------------- -->
+
+    <section class="newsletter">
+        <div class="contenido-newsletter contenedor">
+
+            <div class="texto-newsletter">
+
+                <!-- titulo -->
+                <h2>Recibe Actualizaciones</h2>
+
+                <!-- informacion -->
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quo asperiores est blanditiis a fuga sequi repellat dolores eaque
+                accusamus impedit!</p>  
+                
+                <!-- formulario -->
+                <form class="formulario">
+
+                    <div class="input">
+                        <input type="text" placeholder="Tu Email">
+                    </div>
+
+                    <input type="submit" value="Inscribirme">
+
+
+                </form> <!--fin form-->
+
+            </div> <!--contenido-->
+        </div><!--fin contenedor-->
+    </section><!--fin section 3-->
+
+
+    <!-- /* FOOTER ----------------------------------------------------------------------------------------------------------- */ -->
+
+    <footer class="footer">
+        <p>Todos los derechos reservados - Raldy Lopez - 2023</p>
+    </footer>
+
+    <!-- cargando el js -->
+    <script src="js/imagenes.js" ></script>
+
+</body>
+</html>
